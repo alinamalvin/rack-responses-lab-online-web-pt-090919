@@ -12,7 +12,7 @@ class Application
     resp.write "#{num_3}\n"
  
     if time.hour
-      resp.write "You Win"
+      resp.write "Good Morning!"
     else
       resp.write "You Lose"
     end
